@@ -1,0 +1,30 @@
+.place__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0 0 26px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+  }
+
+    .place__paragraph:first-child {
+      padding-bottom: 25px;
+    }
+
+    .place__paragraph:last-child {
+      padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}
