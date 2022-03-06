@@ -4,11 +4,38 @@
   text-decoration: none;
   width: 100%;
   height: 100%;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    min-height: 255px;
+  }
+}
+
+
+
+@media screen and (max-width: 424px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
 }
 
   .cover__overlay::before {
