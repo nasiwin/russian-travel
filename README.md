@@ -13,4 +13,4 @@
 
 **Просмотр**
 
-* [Ссылка на проект](adawdadwawdawadwdaadw)
+* [Ссылка на проект](https://nasiwin.github.io/russian-travel/index.html)
